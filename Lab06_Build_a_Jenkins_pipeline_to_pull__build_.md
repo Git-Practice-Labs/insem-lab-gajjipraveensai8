@@ -25,3 +25,23 @@ Describe expected outputs, screenshots to capture, or verification steps.
 - Add any helpful hints or troubleshooting tips here.
 - Keep commands and outputs clear for grading.
 
+
+
+Objective
+The objective of this lab is to automate the Continuous Integration and Continuous Deployment (CI/CD) process for a full-stack application using Jenkins and GitHub.
+The pipeline will pull code from GitHub, build frontend and backend, run tests, and simulate deployment automatically.
+
+Tools / Technologies
+Jenkins
+Git and GitHub
+Node.js and npm
+Maven
+Windows PowerShell / Command Prompt
+Prerequisites
+Jenkins installed and running on Windows (sc query jenkins)
+Git, Node.js, npm, and Maven installed and configured in PATH
+GitHub repository with frontend and backend folders
+Jenkins plugins:
+Git Plugin
+Pipeline Plugin
+NodeJS Plugin
